@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Recovery Hub wireframe board overview</title>
+  <desc id="desc">Overview of desktop and mobile wireframes for the Recovery Hub community concept.</desc>
+  <rect width="1200" height="720" fill="#f3f4f6"/>
+  <text x="44" y="54" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">Recovery Hub Wireframes</text>
+  <text x="44" y="84" font-family="Inter, Arial, sans-serif" font-size="14" fill="#4b5563">Stage-based community flow, desktop screens, and mobile companion screens.</text>
+  <rect x="44" y="112" width="540" height="120" rx="8" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="68" y="144" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">User Flow</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">
+    <rect x="68" y="166" width="72" height="34" rx="6" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="82" y="187">Session</text>
+    <text x="150" y="187">-&gt;</text>
+    <rect x="174" y="166" width="78" height="34" rx="6" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="189" y="187">Context</text>
+    <text x="262" y="187">-&gt;</text>
+    <rect x="286" y="166" width="76" height="34" rx="6" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="303" y="187">Stage</text>
+    <text x="372" y="187">-&gt;</text>
+    <rect x="396" y="166" width="76" height="34" rx="6" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="415" y="187">Explore</text>
+    <text x="482" y="187">-&gt;</text>
+    <rect x="506" y="166" width="50" height="34" rx="6" fill="#1f2937"/>
+    <text x="518" y="187" fill="#ffffff">Log</text>
+  </g>
+  <text x="44" y="282" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">Desktop Screens</text>
+  <g fill="#ffffff" stroke="#d1d5db">
+    <rect x="44" y="308" width="250" height="150" rx="8"/>
+    <rect x="318" y="308" width="250" height="150" rx="8"/>
+    <rect x="592" y="308" width="250" height="150" rx="8"/>
+    <rect x="44" y="484" width="250" height="150" rx="8"/>
+    <rect x="318" y="484" width="250" height="150" rx="8"/>
+    <rect x="592" y="484" width="250" height="150" rx="8"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" fill="#111827">
+    <text x="64" y="340" font-size="16" font-weight="700">Hub Home</text>
+    <text x="338" y="340" font-size="16" font-weight="700">Context Setup</text>
+    <text x="612" y="340" font-size="16" font-weight="700">Stage Dashboard</text>
+    <text x="64" y="516" font-size="16" font-weight="700">Structured Log</text>
+    <text x="338" y="516" font-size="16" font-weight="700">Discussion Detail</text>
+    <text x="612" y="516" font-size="16" font-weight="700">Explore</text>
+  </g>
+  <g fill="#f9fafb" stroke="#d1d5db">
+    <rect x="64" y="362" width="54" height="72" rx="4"/>
+    <rect x="130" y="362" width="144" height="26" rx="4"/>
+    <rect x="130" y="400" width="60" height="18" rx="9"/>
+    <rect x="338" y="362" width="210" height="22" rx="4"/>
+    <rect x="338" y="396" width="92" height="22" rx="4"/>
+    <rect x="444" y="396" width="92" height="22" rx="4"/>
+    <rect x="612" y="362" width="210" height="44" rx="4"/>
+    <rect x="612" y="422" width="92" height="18" rx="9"/>
+    <rect x="64" y="538" width="210" height="22" rx="4"/>
+    <rect x="64" y="572" width="210" height="36" rx="4"/>
+    <rect x="338" y="538" width="210" height="36" rx="4"/>
+    <rect x="338" y="588" width="72" height="18" rx="9"/>
+    <rect x="612" y="538" width="64" height="96" rx="4"/>
+    <rect x="692" y="538" width="130" height="36" rx="4"/>
+    <rect x="692" y="590" width="130" height="36" rx="4"/>
+  </g>
+  <text x="904" y="282" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">Mobile Screens</text>
+  <g fill="#ffffff" stroke="#d1d5db">
+    <rect x="904" y="308" width="84" height="150" rx="14"/>
+    <rect x="1010" y="308" width="84" height="150" rx="14"/>
+    <rect x="1116" y="308" width="84" height="150" rx="14"/>
+    <rect x="904" y="484" width="84" height="150" rx="14"/>
+    <rect x="1010" y="484" width="84" height="150" rx="14"/>
+    <rect x="1116" y="484" width="84" height="150" rx="14"/>
+  </g>
+  <g fill="#f9fafb" stroke="#d1d5db">
+    <rect x="916" y="340" width="60" height="20" rx="4"/>
+    <rect x="916" y="370" width="60" height="32" rx="4"/>
+    <rect x="1022" y="340" width="60" height="24" rx="4"/>
+    <rect x="1022" y="374" width="60" height="24" rx="4"/>
+    <rect x="1128" y="340" width="60" height="36" rx="4"/>
+    <rect x="1128" y="388" width="60" height="20" rx="4"/>
+    <rect x="916" y="516" width="60" height="22" rx="4"/>
+    <rect x="916" y="548" width="60" height="22" rx="4"/>
+    <rect x="1022" y="516" width="60" height="28" rx="4"/>
+    <rect x="1022" y="556" width="60" height="28" rx="4"/>
+    <rect x="1128" y="516" width="60" height="20" rx="4"/>
+    <rect x="1128" y="548" width="60" height="28" rx="4"/>
+  </g>
+</svg>

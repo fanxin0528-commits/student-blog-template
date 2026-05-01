@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 560" role="img" aria-labelledby="title desc">
+  <title id="title">Recovery Hub home wireframe</title>
+  <desc id="desc">Home page wireframe showing recovery context, recommendations, and similar members.</desc>
+  <rect width="920" height="560" fill="#ffffff"/>
+  <rect x="1" y="1" width="918" height="558" rx="8" fill="#ffffff" stroke="#d1d5db"/>
+  <rect x="0" y="0" width="920" height="56" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="28" y="35" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">Recovery Hub</text>
+  <text x="146" y="35" font-family="Inter, Arial, sans-serif" font-size="13" fill="#374151">Community</text>
+  <rect x="302" y="18" width="58" height="22" rx="11" fill="#1f2937"/>
+  <text x="321" y="33" font-family="Inter, Arial, sans-serif" font-size="10" fill="#ffffff">Home</text>
+  <rect x="374" y="18" width="64" height="22" rx="11" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="391" y="33" font-family="Inter, Arial, sans-serif" font-size="10" fill="#374151">Stages</text>
+  <rect x="452" y="18" width="56" height="22" rx="11" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="469" y="33" font-family="Inter, Arial, sans-serif" font-size="10" fill="#374151">Logs</text>
+  <rect x="522" y="18" width="68" height="22" rx="11" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="540" y="33" font-family="Inter, Arial, sans-serif" font-size="10" fill="#374151">Explore</text>
+  <text x="28" y="96" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">A recovery-stage community entrance</text>
+  <text x="28" y="122" font-family="Inter, Arial, sans-serif" font-size="13" fill="#6b7280">Personalized content starts from context, not a generic fitness feed.</text>
+  <rect x="28" y="150" width="210" height="360" rx="6" fill="#f9fafb" stroke="#d1d5db"/>
+  <text x="44" y="178" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">My recovery context</text>
+  <text x="44" y="212" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">Injury area: knee</text>
+  <text x="44" y="232" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">Stage: controlled return</text>
+  <text x="44" y="252" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">Goal: return to 5km run</text>
+  <rect x="44" y="300" width="168" height="8" rx="4" fill="#e5e7eb" stroke="#d1d5db"/>
+  <rect x="44" y="300" width="104" height="8" rx="4" fill="#1f2937"/>
+  <rect x="44" y="334" width="168" height="34" rx="4" fill="#1f2937"/>
+  <text x="88" y="356" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">Update context</text>
+  <rect x="264" y="150" width="448" height="128" rx="6" fill="#f9fafb" stroke="#d1d5db"/>
+  <text x="286" y="190" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">Find people recovering at your stage</text>
+  <text x="286" y="218" font-family="Inter, Arial, sans-serif" font-size="13" fill="#374151">A strong discovery idea, later moved toward Explore.</text>
+  <rect x="286" y="236" width="270" height="28" rx="4" fill="#ffffff" stroke="#d1d5db"/>
+  <rect x="568" y="236" width="112" height="28" rx="4" fill="#1f2937"/>
+  <text x="602" y="254" font-family="Inter, Arial, sans-serif" font-size="11" fill="#ffffff">Search</text>
+  <text x="264" y="326" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">For you</text>
+  <g fill="#ffffff" stroke="#d1d5db">
+    <rect x="264" y="348" width="214" height="96" rx="6"/>
+    <rect x="498" y="348" width="214" height="96" rx="6"/>
+    <rect x="264" y="462" width="214" height="48" rx="6"/>
+    <rect x="498" y="462" width="214" height="48" rx="6"/>
+  </g>
+  <text x="282" y="376" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#111827">Log: first easy jog</text>
+  <text x="282" y="402" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">Stage 2 / knee / pain 2-3</text>
+  <text x="516" y="376" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#111827">Question: pain after stairs</text>
+  <text x="516" y="402" font-family="Inter, Arial, sans-serif" font-size="12" fill="#374151">Answers prioritize stop signals</text>
+  <rect x="736" y="150" width="156" height="360" rx="6" fill="#f9fafb" stroke="#d1d5db"/>
+  <text x="754" y="178" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">Similar members</text>
+  <circle cx="770" cy="218" r="15" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="796" y="222" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#111827">Alex</text>
+  <circle cx="770" cy="278" r="15" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="796" y="282" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#111827">Mina</text>
+</svg>
