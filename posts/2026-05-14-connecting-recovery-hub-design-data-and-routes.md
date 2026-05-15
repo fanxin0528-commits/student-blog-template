@@ -1,29 +1,29 @@
 ---
-title: Connecting Recovery Hub Design, Data, and Routes
+title: Turning Recovery Hub Design into a Course-Aligned SQLite Prototype
 date: 2026-05-14
 author: Fanxin
-summary: A reflection on turning Recovery Hub from high fidelity screens into a data-backed prototype with clear routes and user flows.
+summary: A reflection on moving Recovery Hub from high fidelity design into a course-aligned SQLite web prototype with clear routes, data, and validation.
 tags:
   - advanced web design
   - recovery hub
-  - prototype
   - sqlite
-  - reflection
+  - mojo
+  - prototype
 ---
-This week I continued developing Recovery Hub from a high fidelity interface into a working data-backed prototype. Earlier work focused on the concept, wireframes, and visual direction. This stage was about connecting those screens to real content structures, routes, and database relationships so the project could be experienced as a small web application rather than only a set of static designs.
+This week I focused on turning Recovery Hub from a high fidelity design direction into a working A2 prototype that follows the course workflow more clearly. The goal was not only to make the interface look like the Figma screens, but also to make the app behave like a small data-backed web prototype that can be tested through real pages, forms, and SQLite queries.
 
-The main challenge was making sure each screen had a clear data purpose. The Home page is not just a visual dashboard. It needs to show the user's current recovery context, latest pain state, relevant logs, and next action. The Explore page is not just a list of content. It needs to support filtering by recovery stage, body area, goal, and tags. The Log page is not just a form. It is the place where changing recovery-state data is created.
+The main idea of Recovery Hub is still the same: it is a BlaBla community hub for people who want recovery-stage relevant support. It is not a general fitness feed and it is not trying to become a medical tracking product. The prototype is organised around recovery context, structured logs, similar community content, and a clearer separation between checking in, exploring, and recording progress.
 
-Thinking this way helped me connect the interface back to the DDD and ERD work. Each view depends on specific entities: users, recovery contexts, recovery logs, stages, goals, discussion threads, replies, saved items, and reports. Instead of designing pages first and thinking about data later, the prototype now shows how the screen layout and database structure support each other.
+One important decision was keeping Home simple. Home now works as a recovery snapshot. It shows the current recovery context, the latest pain state, recent relevant content, saved items, and a clear next action. It does not make similar-user discovery the main task. That discovery behaviour belongs in Explore, where users can filter by stage, body area, goal, tags, and search terms.
 
-One important decision was keeping pain level out of the account settings. My Account can show the latest pain state, but it should not ask users to manually maintain a separate pain field. The more meaningful source is the structured recovery log, because that is where users record pain before and after an activity. This keeps the data closer to lived experience and avoids asking users to update the same information in multiple places.
+This distinction makes the user flow easier to explain. A user can log in as a seeded BlaBla test member, land on Home, check their current state, add a structured recovery log, then see the latest pain state update from that log. If they want to find people or examples that match their situation, they move into Explore. If they open a detail page, they can read the discussion, reply, save the item, or report it.
 
-The routes also helped clarify the user flow. A user can start at Home, review their current state, add a recovery log, and then return to see the latest pain state reflected in the interface. They can also move from Home or Stage Dashboard into Explore, where the focus becomes finding similar users, logs, and discussions. This separates checking in, recording progress, and discovering community content into different but connected actions.
+On the technical side, I kept the implementation close to the course starter structure. The app uses Mojo routes, controller classes, model classes, server-rendered templates, SQLite, and `better-sqlite3` prepared statements. I also used small HTMX partial updates for Explore filtering and discussion replies, while keeping normal GET and POST fallbacks. This feels appropriate for the assignment because the implementation stays readable and directly connected to the database design.
 
-For implementation, I used SQLite as the local database and connected it to server-rendered pages. This made the prototype easier to reason about because each page can be traced back to the query that supports it. For example, Home reads the current context and latest log, while Explore builds its results from filters. This feels appropriate for the current stage because the important goal is to demonstrate the relationship between user flow, data, and rendered interface.
+The database structure also supports the design decisions. Pain level is not manually edited in My Account or Recovery Context. Instead, the latest pain state comes from the newest structured recovery log. This makes the data more meaningful because it is connected to an actual recovery activity, including pain before, pain after, confidence, symptoms, and what helped.
 
-The visual system still matters. The pixel-style blue interface gives Recovery Hub a clear identity, and the high fidelity Home design helped define the style of panels, buttons, icons, and navigation. However, this week reminded me that a polished visual direction is stronger when the information behind it is also structured. A good prototype should not only look like an app; it should also behave like one.
+I also added validation around the main prototype behaviour. The test checks that Home can read the current context and derive pain from logs, Explore can return similar members, logs, and discussions, a new recovery log updates the latest pain state, and the detail flow supports reply, save, and report actions. This helped me confirm that the prototype is not only showing static mock content.
 
-The next step is to keep testing the main journey end to end. I want to check whether a user can understand their recovery context, add a log, see the latest pain state update, and find relevant community examples without confusion. If those flows work clearly, the prototype will communicate the core idea of Recovery Hub much more effectively.
+The visual system still follows the high fidelity direction from Figma: light blue pixel UI, square buttons, panel blocks, icon-supported navigation, and clear sections. However, this week was more about making the design work through the course implementation structure. A strong visual direction is useful, but for this assignment the prototype also needs to show a clear relationship between wireframes, DDD, ERD, SQLite tables, routes, templates, and user actions.
 
-Overall, this week was about connecting layers of the project. The high fidelity design gives the app its visual form. The database gives it structure. The routes connect user actions to data. Together, these parts make Recovery Hub feel more complete as an interactive prototype.
+The next step is to keep testing the full journey with another person. I want to see whether the flow is understandable without explanation: choose a test member, understand the Home snapshot, use Explore for similar experiences, submit a recovery log, and notice that Home and Account update from that log. If that journey feels clear, Recovery Hub will communicate both the product concept and the technical structure more successfully.
